@@ -8,7 +8,7 @@ public class AdventureRunner {
 
 	public static void main(String[] args) {
 		System.out.println("Input direction to move:");
-		player.movement("e");
+		player.movement(treasureCheck.treasureCheck());
 		System.out.println("Input direction to move:");
 
 	}

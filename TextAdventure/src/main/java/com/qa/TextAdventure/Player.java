@@ -3,7 +3,7 @@ package com.qa.TextAdventure;
 public class Player {
 
 	Position adventurer = new Position(0, 0);
-	Position treasure = new Position(2, 5);
+	Position treasure = new Position(3, 5);
 
 	public void movement(String playerInput) {
 		switch (playerInput) {
